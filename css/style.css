@@ -29,6 +29,8 @@ body {
 
 .header-container__col > p {
   font-size: 0.8rem;
+  -webkit-transform: scaleX(0.8);
+  transform: scaleX(0.8);
 }
 
 .header-container__link {
@@ -37,6 +39,8 @@ body {
   color: white;
   font-size: 0.95rem;
   font-weight: 600;
+  -webkit-transform: scaleX(0.8);
+  transform: scaleX(0.8);
 }
 
 .header-container__link:hover {
@@ -51,5 +55,45 @@ body {
 
 .fa-angle-right {
   color: #F72210;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
+
+.nav-container {
+  list-style: none;
+}
+
+.nav-container ul li {
+  display: inline-block;
+  margin: 0;
+}
+
+.nav-link {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 700;
+  -webkit-transform: scale(0.8, 1.2);
+  transform: scale(0.8, 1.2);
+}
+
+.nav-link:hover{
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #F72862;
+  -webkit-transform: scale(0.8, 1.2);
+  transform: scale(0.8, 1.2);
+}
+
+.searchbox {
+  font-size: 0.9;
+  width: 50%;
+  padding: 2px;
+  border: none;
+}
+
+::placeholder {
+  font-size: 0.9rem;
+  color: rgb(121, 121, 121);
+}
+
