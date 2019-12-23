@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="header-container d-flex justify-content-between p-3">
-            <div class="header-container__col align-self-end">
+            <div id="header-date" class="header-container__col align-self-end">
                 <p>Mon, Dec 23, 2019</p>
             </div>
             <div class="header-container__col pt-1">
@@ -29,11 +29,35 @@
                     </svg>
                 </a>
             </div>
-            <div class="header-container__col d-flex align-self-end mb-3">
+            <div id="signin-subscribe" class="header-container__col d-flex align-self-end">
                 <a class="header-container__link mr-2 pt-1" href="https://subscription.newsweek.com/auth">Sign In</a>
                 <a id="subscribe" class="header-container__link bg-white pt-1 pr-2 pl-2 pb-1" href="https://subscription.newsweek.com/auth">Subscribe&nbsp;
                     <i class="fa fa-angle-right" aria-hidden="true"></i>
                 </a>
+                <nav id="hidden-collapse" class="navbar navbar-inverse">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-nav">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="collapse-nav">
+                        <ul class="nav navbar-nav">
+                            <li><a class="nav-link" href="/us">U.S.</a></li>
+                            <li><a class="nav-link" href="/world">World</a></li>
+                            <li><a class="nav-link" href="/business">Business</a></li>
+                            <li><a class="nav-link" href="/tech-science">Tech & Science</a></li>
+                            <li><a class="nav-link" href="/culture">Culture</a></li>
+                            <li><a class="nav-link" href="/newsgeek">Newsgeek</a></li>
+                            <li><a class="nav-link" href="/sports">Sports</a></li>
+                            <li><a class="nav-link" href="/health">Health</a></li>
+                            <li><a class="nav-link" href="/opinion">Opinion</a></li>
+                            <li><a class="nav-link" href="/vantage">Vantage</a></li>
+                            <li><input type="text" class="searchbox" placeholder="Search" ></li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
         </div>
         <div class="nav-container">

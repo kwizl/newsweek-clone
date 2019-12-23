@@ -63,6 +63,39 @@ body {
   border-bottom: 2px solid rgb(235, 235, 235);
 }
 
+@media only screen and (max-width: 1000px) {
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+
+  #header-date {
+    display: none;
+  }
+
+  .nav-container {
+    display: none;
+  }
+
+  .header-container__col a > svg {
+    height: 6vh;
+  }
+
+  .navbar-toggler-icon {
+    background-color: white !important;
+  }
+}
+
+@media only screen and (min-width: 999px) {
+  #signin-subscribe {
+    margin-bottom: 0.9rem; 
+  }
+
+  #hidden-collapse {
+    display: none;
+  }
+}
+
 .nav-container ul li {
   display: inline-block;
   margin: 0;
@@ -107,5 +140,9 @@ body {
   color: rgb(121, 121, 121);
   -webkit-transform: scale(0.8, 1.2);
   transform: scale(0.8, 1.2);
+}
+
+#hiddden-collapse {
+  display: none;
 }
 
