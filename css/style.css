@@ -12,6 +12,10 @@ body {
   box-sizing: border-box;
 }
 
+*a {
+  text-decoration: none;
+}
+
 .header-container {
   background-color: #F72210;
   color: white;
@@ -142,7 +146,110 @@ body {
   transform: scale(0.8, 1.2);
 }
 
-#hiddden-collapse {
-  display: none;
+.main-container {
+  padding-top: 2rem;
+  height: auto;
 }
 
+.main-container__content-1,
+.main-container__content-3 {
+  width: 29%;
+}
+
+.main-container__content-2 {
+  width: 41%;
+}
+
+#top-story, #content-h {
+  margin-left: -3.2rem;
+}
+
+div picture > img {
+  width: 96%;
+}
+
+.main-container__content-1 > p, .main-container__content-2 > p, .main-container__content-3 > p {
+  text-transform: uppercase;
+  margin-left: -2.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgb(173, 173, 173);
+  -webkit-transform: scaleX(0.8);
+  transform: scaleX(0.8);
+}
+
+.content-heading {
+  margin-left: -2.3rem;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: 600;
+  -webkit-transform: scaleX(0.8);
+  transform: scaleX(0.8);
+}
+
+.content-heading a {
+  color: black;
+}
+
+#main-img {
+  width: 100%;
+  height: 100%;
+}
+
+.content-paragraph {
+  margin-top: -1rem;
+  font-size: 0.8rem;
+}
+
+.main-container__content-3 ul li {
+  list-style: none;
+  margin-bottom: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
+.main-container__content-3 ul li:not(:last-child) {
+  border-bottom: 0.5px solid rgb(235, 235, 235);
+}
+
+.auth-img {
+  width: 20%;
+}
+
+.auth-content {
+  width: 76%;
+  text-transform: uppercase;
+  color: rgb(112, 112, 112);
+  font-size: 1rem;
+  font-weight: 600;
+  -webkit-transform: scaleX(0.75);
+  transform: scaleX(0.75);
+  margin-left: -1rem;
+}
+
+.content-link {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 600;
+  -webkit-transform: scaleX(0.5);
+  transform: scaleX(0.5);
+}
+
+.content-link:hover {
+  text-decoration: none;
+  color: #F72862;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 600;
+  -webkit-transform: scaleX(0.8);
+  transform: scaleX(0.8);
+}
+
+.content-author {
+  text-transform: uppercase;
+  color: rgb(197, 197, 197);
+  font-size: 1rem;
+  -webkit-transform: scaleX(0.8);
+  transform: scaleX(0.8);
+}
