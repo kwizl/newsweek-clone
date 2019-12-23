@@ -60,11 +60,17 @@ body {
 
 .nav-container {
   list-style: none;
+  border-bottom: 2px solid rgb(235, 235, 235);
 }
 
 .nav-container ul li {
   display: inline-block;
   margin: 0;
+  padding: 0;
+}
+
+.nav-container ul li:not(:last-child) {
+  border-left: 1px solid rgb(235, 235, 235);
 }
 
 .nav-link {
@@ -87,13 +93,19 @@ body {
 
 .searchbox {
   font-size: 0.9;
-  width: 50%;
+  width: 55%;
   padding: 2px;
   border: none;
+  background-image: url('../img/search-solid.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-origin: content;
 }
 
 ::placeholder {
   font-size: 0.9rem;
   color: rgb(121, 121, 121);
+  -webkit-transform: scale(0.8, 1.2);
+  transform: scale(0.8, 1.2);
 }
 
