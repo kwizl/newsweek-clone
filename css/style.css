@@ -157,7 +157,8 @@ body {
 }
 
 .main-container__content-2 {
-  width: 38%;
+  width: 36%;
+  height: auto;
 }
 
 #top-story, #content-h {
@@ -174,7 +175,39 @@ article picture > img {
   border: 1px solid rgb(226, 226, 226);
 }
 
-.main-container__content-1 > p, .main-container__content-2 > p, .main-container__content-3 > p {
+/* STORIES SECTION */
+.stories-section__container--img {
+  height: 70%;
+}
+
+.stories-section__container--img, .stories-section__container > a, .stories-section__container > div {
+  display: inline-block;
+}
+
+.stories-section__container > div {
+  font-size: 0.8rem;
+}
+
+.stories-section__container > a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 600;
+  -webkit-transform: scaleX(0.5);
+  transform: scaleX(0.5);
+}
+
+.stories-section__container > a:hover {
+  text-decoration: underline;
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  -webkit-transform: scaleX(0.8);
+  transform: scaleX(0.8);
+}
+
+.main-container__content-1 > p, .main-container__content-2 > p, .main-container__content-3 > p, .culture-section > h3, .stories-section > h3 {
   text-transform: uppercase;
   margin-left: -2.2rem;
   font-size: 1.1rem;
@@ -182,6 +215,10 @@ article picture > img {
   color: rgb(173, 173, 173);
   -webkit-transform: scaleX(0.8);
   transform: scaleX(0.8);
+}
+
+.stories-section > h3 {
+  margin-left: -2.9rem !important;
 }
 
 .content-heading {
@@ -207,6 +244,31 @@ article picture > img {
   font-size: 0.8rem;
 }
 
+.culture-section {
+  background-color: rgb(226, 226, 226);
+}
+
+.culture-travel article > h3 a {
+  font-family: "Lora",serif;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.culture-travel__paragraph {
+  font-family: "Helvetica Neue","Helvetica",Arial,sans-serif;
+  color: rgba(39, 39, 39, 0.5);
+  font-size: 0.9rem;
+}
+
+.culture-travel article picture > img {
+  width: 90%;
+  height: 35%;
+}
+
+.main-container__content-3 ul {
+  margin-bottom: 2rem;
+}
+
 .main-container__content-3 ul li {
   list-style: none;
   margin-bottom: 0.7rem;
@@ -217,11 +279,16 @@ article picture > img {
   border-bottom: 0.5px solid rgb(235, 235, 235);
 }
 
-.auth-img {
-  width: 20%;
+.auth-img, .latest-img {
+  width: 30%;
 }
 
-.auth-content {
+.latest-img picture > img {
+  width: 100%;
+  height: 100%;
+}
+
+.auth-content, .latest-content {
   width: 76%;
   text-transform: uppercase;
   color: rgb(112, 112, 112);
@@ -230,6 +297,11 @@ article picture > img {
   -webkit-transform: scaleX(0.75);
   transform: scaleX(0.75);
   margin-left: -1rem;
+}
+
+
+#opinion-1, #opinion-2, #opinion-3, #opinion-4, #opinion-5, #opinion-6 {
+  margin-left: -3rem;
 }
 
 .content-link {
@@ -248,14 +320,6 @@ article picture > img {
   text-transform: capitalize;
   font-size: 1rem;
   font-weight: 600;
-  -webkit-transform: scaleX(0.8);
-  transform: scaleX(0.8);
-}
-
-.content-author {
-  text-transform: uppercase;
-  color: rgb(197, 197, 197);
-  font-size: 1rem;
   -webkit-transform: scaleX(0.8);
   transform: scaleX(0.8);
 }
