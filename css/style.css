@@ -184,7 +184,7 @@ article picture > img {
   font-size: 0.8rem;
 }
 
-.stories-section__container > a {
+.stories-section__container > a, .subscribe-content {
   text-decoration: none;
   color: black;
   text-transform: capitalize;
@@ -217,6 +217,10 @@ article picture > img {
   margin-left: -2.9rem !important;
 }
 
+.stories-img {
+  height: 60%;
+}
+
 .content-heading {
   margin: 0.8rem 0 0 -2.3rem;
   text-transform: capitalize;
@@ -241,7 +245,12 @@ article picture > img {
 }
 
 .culture-section {
+  height: 220vh;
   background-color: rgb(226, 226, 226);
+}
+
+.culture-travel div > article {
+  height: 100vh;
 }
 
 .culture-travel article > h3 a {
@@ -387,3 +396,26 @@ article picture > img {
   text-transform: uppercase;
 }
 
+#div-subscribe {
+  width: 64%;
+  background-color: rgb(211, 211, 211);
+}
+
+#div-newsletter {
+  width: 32%;
+}
+
+.newsletter-bg {
+  background-image: url('https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: red;
+  width: 50%;
+}
+
+.newsletter-content {
+  width: 50%;
+  float: right;
+  margin-left: 10rem;
+}
