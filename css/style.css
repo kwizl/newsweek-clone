@@ -13,7 +13,7 @@ body {
 }
 
 .header-container {
-  background-color: #F72210;
+  background-color: #f72210;
   color: white;
   height: 16vh;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%, 95% 100%, 93% 88%, 0 88%);
@@ -50,11 +50,11 @@ body {
 }
 
 #subscribe {
-  color: #F72210;
+  color: #f72210;
 }
 
 .fa-angle-right {
-  color: #F72210;
+  color: #f72210;
   font-size: 1rem;
 }
 
@@ -88,7 +88,7 @@ body {
 
 @media only screen and (min-width: 999px) {
   #signin-subscribe {
-    margin-bottom: 0.9rem; 
+    margin-bottom: 0.9rem;
   }
 
   #hidden-collapse {
@@ -116,10 +116,10 @@ body {
   transform: scale(0.8, 1.2);
 }
 
-.nav-link:hover{
+.nav-link:hover {
   text-transform: capitalize;
   text-decoration: none;
-  color: #F72862;
+  color: #f72862;
   -webkit-transform: scale(0.8, 1.2);
   transform: scale(0.8, 1.2);
 }
@@ -157,7 +157,8 @@ body {
   height: auto;
 }
 
-#top-story, #content-h {
+#top-story,
+#content-h {
   margin-left: -3.2rem;
 }
 
@@ -176,7 +177,9 @@ article picture > img {
   height: 70%;
 }
 
-.stories-section__container--img, .stories-section__container > a, .stories-section__container > div {
+.stories-section__container--img,
+.stories-section__container > a,
+.stories-section__container > div {
   display: inline-block;
 }
 
@@ -184,7 +187,8 @@ article picture > img {
   font-size: 0.8rem;
 }
 
-.stories-section__container > a, .subscribe-content {
+.stories-section__container > a,
+.subscribe-content {
   text-decoration: none;
   color: black;
   text-transform: capitalize;
@@ -192,6 +196,22 @@ article picture > img {
   font-weight: 600;
   -webkit-transform: scaleX(0.5);
   transform: scaleX(0.5);
+}
+
+.content-heading a {
+  color: black;
+}
+
+.category-type > a {
+  text-decoration: none;
+  color: #f72210;
+  transform: scaleX(0.6);
+}
+
+.culture-travel article > h3 a {
+  font-family: "Lora", serif;
+  font-size: 1.2rem;
+  text-transform: capitalize;
 }
 
 .stories-section__container > a:hover {
@@ -203,7 +223,11 @@ article picture > img {
   transform: scaleX(0.8);
 }
 
-.main-container__content-1 > p, .main-container__content-2 > p, .main-container__content-3 > p, .culture-section > h3, .stories-section > h3 {
+.main-container__content-1 > p,
+.main-container__content-2 > p,
+.main-container__content-3 > p,
+.culture-section > h3,
+.stories-section > h3 {
   text-transform: uppercase;
   margin-left: -2.2rem;
   font-size: 1.1rem;
@@ -230,10 +254,6 @@ article picture > img {
   transform: scaleX(0.8);
 }
 
-.content-heading a {
-  color: black;
-}
-
 #main-img {
   width: 100%;
   height: 100%;
@@ -253,16 +273,19 @@ article picture > img {
   height: 100vh;
 }
 
-.culture-travel article > h3 a {
-  font-family: "Lora",serif;
-  font-size: 1.2rem;
-  text-transform: capitalize;
-}
-
 .culture-travel__paragraph {
-  font-family: "Helvetica Neue","Helvetica",Arial,sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
   color: rgba(39, 39, 39, 0.5);
   font-size: 0.9rem;
+}
+
+.newsweek-icon > img {
+  height: 4vh;
+}
+
+.latest-img picture > img {
+  width: 100%;
+  height: 100%;
 }
 
 .culture-travel article picture > img {
@@ -274,26 +297,17 @@ article picture > img {
   margin-bottom: 2rem;
 }
 
-.main-container__content-3 ul li {
-  list-style: none;
-  margin-bottom: 0.7rem;
-  padding-bottom: 0.7rem;
-}
-
 .main-container__content-3 ul li:not(:last-child) {
   border-bottom: 0.5px solid rgb(235, 235, 235);
 }
 
-.auth-img, .latest-img {
+.auth-img,
+.latest-img {
   width: 30%;
 }
 
-.latest-img picture > img {
-  width: 100%;
-  height: 100%;
-}
-
-.auth-content, .latest-content {
+.auth-content,
+.latest-content {
   width: 76%;
   text-transform: uppercase;
   color: rgb(112, 112, 112);
@@ -304,8 +318,12 @@ article picture > img {
   margin-left: -1rem;
 }
 
-
-#opinion-1, #opinion-2, #opinion-3, #opinion-4, #opinion-5, #opinion-6 {
+#opinion-1,
+#opinion-2,
+#opinion-3,
+#opinion-4,
+#opinion-5,
+#opinion-6 {
   margin-left: -3rem;
 }
 
@@ -321,7 +339,7 @@ article picture > img {
 
 .content-link:hover {
   text-decoration: none;
-  color: #F72862;
+  color: #f72862;
   text-transform: capitalize;
   font-size: 1rem;
   font-weight: 600;
@@ -332,16 +350,12 @@ article picture > img {
 .magazine-title {
   text-align: center;
   font-style: bold;
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1rem;
   font-weight: 600;
   color: rgb(90, 90, 90);
   text-transform: uppercase;
   transform: scaleX(0.9);
-}
-
-.newsweek-icon > img {
-  height: 4vh;
 }
 
 #magazine-top-row {
@@ -364,7 +378,8 @@ article picture > img {
   font-weight: 700;
 }
 
-.magazine-category, .category-type {
+.magazine-category,
+.category-type {
   font-weight: 600;
   font-size: 1rem;
   padding: 0.3rem 0.2rem 0.3rem 0.2rem;
@@ -372,17 +387,30 @@ article picture > img {
 
 .magazine-category {
   color: white;
-  background-color: #F72210;
+  background-color: #f72210;
 }
 
-.category-type > a {
+.category-white {
+  width: 65%;
+  text-align: center;
+  padding: 0.4rem;
+  position: relative;
+  top: -1.5rem;
+  left: 0;
+  background-color: white;
+  opacity: 0.8;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  transform: scaleX(0.7);
+}
+
+.art > a:hover {
   text-decoration: none;
-  color: #F72210;
-  transform: scaleX(0.6);
 }
 
 .category-type > a:hover {
-  color: #F72210;
+  color: #f72210;
 }
 
 #art-link-1 {
