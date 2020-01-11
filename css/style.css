@@ -265,12 +265,12 @@ article picture > img {
 }
 
 .culture-section {
-  height: 220vh;
+  height: auto;
   background-color: rgb(226, 226, 226);
 }
 
 .culture-travel div > article {
-  height: 100vh;
+  height: 80vh;
 }
 
 .culture-travel__paragraph {
@@ -289,8 +289,17 @@ article picture > img {
 }
 
 .culture-travel article picture > img {
-  width: 90%;
+  width: 100%;
   height: 35%;
+}
+
+.culture-travel article {
+  width: 50%;
+}
+
+.culture-travel article > span {
+  color: black;
+  background-color: rgb(194, 194, 194);
 }
 
 .main-container__content-3 ul {
@@ -413,6 +422,46 @@ article picture > img {
   color: #f72210;
 }
 
+.newsletter-signup {
+  background-color: rgb(238, 238, 238);
+}
+
+.btn-newsletter {
+  background-color: rgb(92, 92, 92);
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  transform: scaleX(0.8);
+}
+
+.newsletter-title {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(82, 82, 82);
+  font-weight: 600;
+  font-size: 1rem;
+  transform: scaleX(0.8);
+}
+
+.newsletter-link {
+  color: rgb(82, 82, 82);
+  font-weight: 600;
+}
+
+.newsletter-link:hover {
+  color: rgb(82, 82, 82);
+  font-weight: 600;
+  font-size: 1.2rem;
+  transform: scaleX(0.8);
+}
+
+#newsletter-id {
+  font-size: 1.2rem;
+  color: white;
+}
+
 #art-link-1 {
   transform: scaleX(0.7);
 }
@@ -446,4 +495,26 @@ article picture > img {
   width: 50%;
   float: right;
   margin-left: 10rem;
+}
+
+.slideshow-link {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  top: 55%;
+  left: 3%;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
+}
+
+#sl-1, #sl-2 {
+  position: absolute;
+  top: 61%;
+  left: 3%;
 }
