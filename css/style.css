@@ -202,6 +202,46 @@ article picture > img {
   color: black;
 }
 
+#subscribe-stories > div > h5 {
+  color: #f72210;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.subscribe {
+  padding-left: 6%;
+  background-color: rgb(236, 236, 236);
+}
+
+.subscribe-newsletter {
+  background-color: white;
+}
+
+.subscribe-info {
+  padding-left: 6%;
+}
+
+.subscribe-info h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.subscribe-info p {
+  font-size: 14px;
+}
+
+.subscribe-newsletter > img {
+  height: 212px;
+  width: 150px;
+  margin-right: 2%;
+}
+
+#subscribe-btn-id {
+  color: white;
+  text-decoration: none;
+}
+
 .category-type > a {
   text-decoration: none;
   color: #f72210;
@@ -457,9 +497,17 @@ article picture > img {
   transform: scaleX(0.8);
 }
 
-#newsletter-id {
+#subscribe-newsletter-id {
   font-size: 1.2rem;
   color: white;
+  text-decoration: none;
+}
+
+#subscribe-newsletter-id:hover {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  background-color:#fa1a06;
 }
 
 #art-link-1 {
