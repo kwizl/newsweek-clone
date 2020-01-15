@@ -20,7 +20,7 @@ Project: Building with Responsive Design
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/mariancristu/TheNextWeb/complete-project/index.html)
+[Live Demo Link](https://raw.githack.com/kwizl/newsweek-clone/dev/index.html)
 
 ## Getting Started
 
