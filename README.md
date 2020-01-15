@@ -8,7 +8,7 @@ In this project, we'll be building from scratch a copy of this "[Newsweek clone]
 
 > A clone of (https://www.newsweek.com/)
 
-![screenshot](screenshoot/screenshoot.png)
+![screenshot](screenshot/screenshot.png)
 
 Project: Building with Responsive Design
 
