@@ -248,6 +248,12 @@ article picture > img {
   transform: scaleX(0.6);
 }
 
+.footer-link > a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: rgb(112, 112, 112);
+}
+
 .culture-travel article > h3 a {
   font-family: "Lora", serif;
   font-size: 1.2rem;
@@ -396,10 +402,9 @@ article picture > img {
   transform: scaleX(0.8);
 }
 
-<<<<<<< HEAD
 /* FOOTER */
 #footer-img {
-  fill: #F72210;
+  fill: #f72210;
 }
 
 .footer-container {
@@ -413,7 +418,7 @@ article picture > img {
 .copyright {
   text-transform: uppercase;
   font-size: 0.8rem;
-  color: #666666;
+  color: #666;
   padding: 1.5rem 0 0 1.5rem;
 }
 
@@ -431,7 +436,11 @@ article picture > img {
   font-size: 1.2rem;
 }
 
-.fa-facebook, .fa-twitter, .fa-tumblr, .fa-linkedin, .fa-instagram {
+.fa-facebook,
+.fa-twitter,
+.fa-tumblr,
+.fa-linkedin,
+.fa-instagram {
   color: black;
 }
 
@@ -450,18 +459,10 @@ article picture > img {
   border-right: 1px solid rgb(219, 219, 219);
 }
 
-.footer-link > a {
-  text-decoration: none;
-  font-size: 0.8rem;
-  color: rgb(112, 112, 112);
-}
-
 .footer-link > a:hover {
   color: rgb(51, 51, 51);
 }
 
-
-=======
 .magazine-title {
   text-align: center;
   font-style: bold;
@@ -633,4 +634,3 @@ article picture > img {
   top: 61%;
   left: 3%;
 }
->>>>>>> feature-main-content
