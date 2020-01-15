@@ -474,6 +474,21 @@ article picture > img {
   transform: scaleX(0.9);
 }
 
+#nl-1,
+#nl-2,
+#nl-3,
+#nl-4,
+#nl-5,
+#nl-6,
+#nl-7,
+#nl-8,
+#nl-9,
+#nl-10,
+#nl-11,
+#nl-12 {
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+
 #magazine-top-row {
   border-top: 1px solid rgb(177, 177, 177);
 }
