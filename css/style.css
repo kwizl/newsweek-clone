@@ -309,6 +309,10 @@ article picture > img {
   background-color: rgb(226, 226, 226);
 }
 
+.culture-travel article {
+  width: 50%;
+}
+
 .culture-travel div > article {
   height: 80vh;
 }
@@ -331,10 +335,6 @@ article picture > img {
 .culture-travel article picture > img {
   width: 100%;
   height: 35%;
-}
-
-.culture-travel article {
-  width: 50%;
 }
 
 .culture-travel article > span {
@@ -507,7 +507,7 @@ article picture > img {
   font-size: 1.2rem;
   color: white;
   text-decoration: none;
-  background-color:#fa1a06;
+  background-color: #fa1a06;
 }
 
 #art-link-1 {
@@ -561,7 +561,8 @@ article picture > img {
   color: #e9212e;
 }
 
-#sl-1, #sl-2 {
+#sl-1,
+#sl-2 {
   position: absolute;
   top: 61%;
   left: 3%;
