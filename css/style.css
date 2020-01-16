@@ -262,13 +262,13 @@ article picture > img {
   transform: scaleX(0.8);
 }
 
-.main-container__content-1 > p,
-.main-container__content-2 > p,
-.main-container__content-3 > p,
+.main-container__content-1 > div,
+.main-container__content-2 > div,
+.main-container__content-3 > div,
 .culture-section > h3,
 .stories-section > h3 {
   text-transform: uppercase;
-  margin-left: -2.2rem;
+  margin-left: -2.5rem;
   font-size: 1.1rem;
   font-weight: 600;
   color: rgb(173, 173, 173);
@@ -304,7 +304,7 @@ article picture > img {
 }
 
 .culture-section {
-  height: auto;
+  height: 1200px;
   background-color: rgb(226, 226, 226);
 }
 
@@ -624,23 +624,16 @@ article picture > img {
   width: 70px;
   height: 52px;
   display: block;
-  position: absolute;
-  top: 55%;
-  left: 3%;
+  text-align: center;
+  position: relative;
+  top: -3.2rem;
+  left: 0;
   font-weight: bold;
   font-size: 20px;
   line-height: 58px;
   text-indent: 5px;
-  text-align: center;
   background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
   color: #e9212e;
-}
-
-#sl-1,
-#sl-2 {
-  position: absolute;
-  top: 61%;
-  left: 3%;
 }
 
 .news-conversation-main {
@@ -648,6 +641,7 @@ article picture > img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 70vh;
   position: relative;
 }
 
@@ -688,13 +682,18 @@ article picture > img {
 }
 
 #news-conversation {
-  height: 25.3rem;
+  height: 60vh;
+}
+
+#img-list {
+  height: 100%;
 }
 
 .conversation-list {
   list-style: none;
   border-bottom: 1px solid white;
   margin-left: -15px;
+  height: 140px;
 }
 
 .conversation-list .col-7 {
@@ -743,6 +742,18 @@ article picture > img {
   transform: scaleX(0.8);
 }
 
+@media only screen and (min-width: 200px) and (max-width: 998px) {
+  #news-conversation {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 999px) {
+  #news-conversation-1 {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 541px) and (max-width: 1159px) {
   header {
     display: none;
@@ -772,6 +783,14 @@ article picture > img {
     background-repeat: no-repeat;
     background-position: right;
     background-origin: content;
+  }
+
+  .main-container__content-1 > div,
+  .main-container__content-2 > div,
+  .main-container__content-3 > div,
+  .culture-section > h3,
+  .stories-section > h3 {
+    margin-left: -2.8rem;
   }
 }
 
