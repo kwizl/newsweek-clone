@@ -12,13 +12,6 @@ body {
   box-sizing: border-box;
 }
 
-.header-container {
-  background-color: #f72210;
-  color: white;
-  height: 16vh;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%, 95% 100%, 93% 88%, 0 88%);
-}
-
 .header-img {
   fill: white;
 }
@@ -685,6 +678,10 @@ article picture > img {
   font-size: 0.8rem;
 }
 
+.fa-bars {
+  color: white;
+}
+
 .conversation-time {
   font-size: 1.1rem;
   color: rgb(168, 168, 168);
@@ -744,4 +741,89 @@ article picture > img {
 
 #main-magazine-article .article-link {
   transform: scaleX(0.8);
+}
+
+@media only screen and (min-width: 541px) and (max-width: 1159px) {
+  header {
+    display: none;
+  }
+
+  .responsive-header {
+    background-color: #f72210;
+  }
+
+  #navbar-id {
+    position: relative;
+  }
+
+  .navbar-collapse {
+    background-color: white;
+    position: absolute;
+    left: 70%;
+    width: 30%;
+  }
+
+  .searchbox {
+    font-size: 0.5;
+    width: 95%;
+    border: none;
+    background-image: url('../img/search-solid.svg');
+    background-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-origin: content;
+  }
+}
+
+@media only screen and (min-width: 1160px) {
+  .responsive-header {
+    display: none;
+  }
+
+  .header-container {
+    background-color: #f72210;
+    color: white;
+    height: 16vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%, 95% 100%, 93% 88%, 0 88%);
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 540px) {
+  header {
+    display: none;
+  }
+
+  .responsive-header {
+    background-color: #f72210;
+  }
+
+  .header-container__col a > svg {
+    height: 3vh;
+  }
+
+  .header-container__link {
+    font-size: 0.75rem;
+  }
+
+  #navbar-id {
+    position: relative;
+  }
+
+  .searchbox {
+    font-size: 0.5;
+    width: 95%;
+    border: none;
+    background-image: url('../img/search-solid.svg');
+    background-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-origin: content;
+  }
+
+  .navbar-collapse {
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    width: 50%;
+  }
 }
