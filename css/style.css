@@ -42,7 +42,8 @@ body {
   color: white;
 }
 
-#subscribe {
+#subscribe,
+#subscribe-1 {
   color: #f72210;
 }
 
@@ -80,7 +81,8 @@ body {
 }
 
 @media only screen and (min-width: 999px) {
-  #signin-subscribe {
+  #signin-subscribe,
+  #signin-subscribe-1 {
     margin-bottom: 0.9rem;
   }
 
@@ -653,11 +655,13 @@ article picture > img {
   bottom: -5px;
 }
 
-#conversation-1 {
+#conversation-1,
+#conversation-2 {
   background-color: black;
 }
 
-#conversation-1-link {
+#conversation-1-link,
+#conversation-2-link {
   color: white;
   font-style: bold;
   font-family: "Roboto Condensed", sans-serif;
@@ -685,7 +689,8 @@ article picture > img {
   height: 60vh;
 }
 
-#img-list {
+#img-list-1,
+#img-list-2 {
   height: 100%;
 }
 
@@ -709,7 +714,8 @@ article picture > img {
   transform: scaleX(0.9);
 }
 
-#conv-img-1 {
+#conv-img-1,
+#conv-img-4 {
   background-image: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95");
   background-position: center;
   background-size: cover;
@@ -717,7 +723,8 @@ article picture > img {
   position: relative;
 }
 
-#conv-img-2 {
+#conv-img-2,
+#conv-img-5 {
   background-image: url("https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg?w=173&h=104&f=64f6b307bd86eb7c5a0a44276471bf7f");
   background-position: center;
   background-size: cover;
@@ -725,7 +732,8 @@ article picture > img {
   position: relative;
 }
 
-#conv-img-3 {
+#conv-img-3,
+#conv-img-6 {
   background-image: url("https://d.newsweek.com/en/full/1555352/newsweek-conversations-matthew-modine.jpg?w=173&h=104&f=654768a75c92e3ead489a0ab7a1ae31f");
   background-position: center;
   background-size: cover;
