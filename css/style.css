@@ -152,7 +152,6 @@ body {
   height: auto;
 }
 
-#top-story,
 #content-h {
   margin-left: -3.2rem;
 }
@@ -174,11 +173,11 @@ article picture > img {
 
 .stories-section__container--img,
 .stories-section__container > a,
-.stories-section__container > div {
+.stories-section__container > span {
   display: inline-block;
 }
 
-.stories-section__container > div {
+.stories-section__container > span {
   font-size: 0.8rem;
 }
 
@@ -264,13 +263,13 @@ article picture > img {
   transform: scaleX(0.8);
 }
 
-.main-container__content-1 > div,
-.main-container__content-2 > div,
-.main-container__content-3 > div,
+.main-container__content-1 > span,
+.main-container__content-2 > span,
+.main-container__content-3 > span,
 .culture-section > h3,
 .stories-section > h3 {
   text-transform: uppercase;
-  margin-left: -2.5rem;
+  width: inherit;
   font-size: 1.1rem;
   font-weight: 600;
   color: rgb(173, 173, 173);
@@ -353,19 +352,29 @@ article picture > img {
 
 .auth-img,
 .latest-img {
-  width: 30%;
+  width: 6rem;
 }
 
 .auth-content,
 .latest-content {
-  width: 76%;
+  width: 80%;
+  text-transform: uppercase;
+  color: rgb(112, 112, 112);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: -1rem;
+  -webkit-transform: scaleX(0.75);
+  transform: scaleX(0.75);
+}
+
+#latest-id {
+  width: 100%;
   text-transform: uppercase;
   color: rgb(112, 112, 112);
   font-size: 1rem;
   font-weight: 600;
   -webkit-transform: scaleX(0.75);
   transform: scaleX(0.75);
-  margin-left: -1rem;
 }
 
 #opinion-1,
@@ -508,7 +517,7 @@ article picture > img {
 .category-type {
   font-weight: 600;
   font-size: 1rem;
-  padding: 0.3rem 0.2rem 0.3rem 0.2rem;
+  padding: 0.2rem 0.2rem 0.3rem 0.2rem;
 }
 
 .magazine-category {
@@ -741,6 +750,10 @@ article picture > img {
   position: relative;
 }
 
+.img-fluid {
+  width: 100%;
+}
+
 #main-magazine-article {
   background-color: rgb(240, 240, 240);
   text-align: center;
@@ -759,6 +772,13 @@ article picture > img {
 @media only screen and (min-width: 999px) {
   #news-conversation-1 {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+  .auth-img,
+  .latest-img {
+    width: 6rem;
   }
 }
 
@@ -793,12 +813,12 @@ article picture > img {
     background-origin: content;
   }
 
-  .main-container__content-1 > div,
-  .main-container__content-2 > div,
-  .main-container__content-3 > div,
+  .main-container__content-1 > span,
+  .main-container__content-2 > span,
+  .main-container__content-3 > span,
   .culture-section > h3,
   .stories-section > h3 {
-    margin-left: -2.8rem;
+    margin-left: -1rem;
   }
 }
 
