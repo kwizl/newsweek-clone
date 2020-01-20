@@ -38,8 +38,6 @@ Project: Building with Responsive Design
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mariancristu/TheNextWeb/issues).
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
