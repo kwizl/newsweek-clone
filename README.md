@@ -24,7 +24,7 @@ Project: Building with Responsive Design
 
 ## Getting Started
 
-**Use browser of choise**
+**Use browser of choice**
 
 ## Authors
 
