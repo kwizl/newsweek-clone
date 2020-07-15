@@ -8,7 +8,7 @@ In this project, we'll be building from scratch a copy of this "[Newsweek clone]
 
 > A clone of (https://www.newsweek.com/)
 
-![screenshot](screenshot/screenshot.png)
+![screenshot](img/screenshot/screenshot.png)
 
 Project: Building with Responsive Design
 
@@ -32,7 +32,7 @@ Project: Building with Responsive Design
 
 - Github: [@kwizl](https://github.com/kwizl)
 - Twitter: [@NjoroKaris](https://twitter.com/NjoroKaris)
-- Linkedin: [martin njoroge](https://www.linkedin.com/in/martin-njoroge-098774110/)
+- Linkedin: [martin njoroge](https://www.linkedin.com/in/martin-kariuki-njoroge/)
 
 ## 🤝 Contributing
 
