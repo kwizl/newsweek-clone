@@ -1,8 +1,8 @@
-# newsweek-clone
+# Newsweek-clone
 
 # Bootstrap Micorverse Project
 
-In this project, we'll be building from scratch a copy of this "[Newsweek clone](https://www.newsweek.com/)". The main goal of this project is to learn how to use bootstrap framework.
+In this project, we'll be building from scratch a copy of this [Newsweek clone](https://www.newsweek.com/). The main goal of this project is to learn how to use the bootstrap framework.
 
 # Newsweek clone
 
@@ -36,8 +36,4 @@ Project: Building with Responsive Design
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
-
-## Show your support
-
-Give a ⭐️ if you like this project!
+Contributions, issues, and feature requests are welcome!
